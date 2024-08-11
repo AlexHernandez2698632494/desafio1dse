@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o/Y1/nRNC0g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexh\\Desktop\\U\\CICLO VI\\EVALUACIONES\\DSE1042024C02G02L\\desafio1\\MVCEmpleados-api\\MVCEmpleados\\Employee.Entities\\Employee.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexh\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,75 @@
+/* Ajustar el tamaño de fuente según el tamaño de la pantalla */
+html {
+    font-size: 14px;
+    color: #AA9554; /* Color del texto */
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Estilo para botones */
+.btn, .btn-primary {
+    background-color: #005DA6; /* Color de fondo de los botones */
+    color: #ffffff; /* Color del texto en los botones */
+}
+
+    .btn:hover, .btn:focus, .btn-primary:hover, .btn-primary:focus {
+        background-color: #004b87; /* Color de fondo de los botones al pasar el cursor o al enfocarse */
+        color: #ffffff; /* Color del texto en los botones al pasar el cursor o al enfocarse */
+    }
+
+    /* Estilo para el foco de los elementos de formulario */
+    .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+        box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    }
+
+/* Ajustar la altura mínima del cuerpo y el margen inferior */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    color: #AA9554; /* Color del texto en el cuerpo */
+}
+/* Estilo para el Navbar */
+.navbar {
+    background-color: #050430; /* Fondo del navbar */
+        color: #AA9554; /* Color del texto */
+
+}
+a {
+    color: #AA9554; /* Color del texto */
+}
+.navbar-nav .nav-link {
+    color: #AA9554; /* Color del texto de los enlaces en el navbar */
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #ffffff; /* Color del texto de los enlaces al pasar el cursor */
+    }
+
+/* Estilo para los elementos activos del navbar */
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffffff; /* Color del texto del enlace activo */
+}
+
+/* Estilo para el Footer */
+footer {
+    background-color: #050430; /* Fondo del footer */
+    color: #AA9554; /* Color del texto en el footer */
+    padding: 1rem; /* Espaciado interno del footer */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+    footer a {
+        color: #AA9554; /* Color del texto de los enlaces en el footer */
+    }
+
+        footer a:hover {
+            color: #ffffff; /* Color del texto de los enlaces al pasar el cursor */
+        }
